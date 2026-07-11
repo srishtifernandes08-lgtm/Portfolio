@@ -1,0 +1,72 @@
+---
+title: "Video KYC"
+order: 1
+company: "IDfy"
+---
+
+### Business Context
+Financial institutions in India were mandated by the RBI to implement Video Customer Identification Process (V-CIP) to facilitate remote onboarding during and after the pandemic. The existing physical verification process was slow, costly, and prone to drop-offs.
+
+### Problem
+Users were experiencing high drop-off rates during the video call due to poor network connectivity, confusing interface states, and unclear instructions on how to present their documents to the camera.
+
+### Objectives
+- Reduce drop-off rates by 30%.
+- Ensure 100% compliance with RBI guidelines regarding live photo capture and liveness checks.
+- Create an interface that guides low-digital-literacy users through a complex, high-friction process.
+
+### Constraints
+- Strict regulatory requirements dictating specific user actions (e.g., reading a randomized code aloud).
+- Highly variable user network conditions and device capabilities across Tier 2 and Tier 3 cities.
+
+### My Role
+Lead Product Designer
+
+### Team
+Product Manager, 2 Frontend Engineers, 1 Backend Engineer, Compliance Officer.
+
+### Responsibilities
+- End-to-end UX/UI design.
+- User research and usability testing.
+- Cross-functional alignment with legal and engineering teams.
+
+### Research
+Conducted qualitative usability tests with 12 users representing the target demographic. We observed that users struggled most with camera permissions, audio feedback, and understanding the precise framing required for document capture.
+
+### Insights
+- Users often did not realise when their microphone was muted.
+- The cognitive load of holding a document steady while looking at the camera was too high without clear, real-time visual feedback.
+- Network degradation caused panic, leading users to prematurely abandon the call.
+
+### Information Architecture
+Streamlined the flow into three distinct phases: Pre-call Setup (Hardware Checks), Active Verification (Liveness & Document Capture), and Post-call Confirmation.
+
+### User Flows
+Designed a resilient flow that included "graceful degradation" states—if network quality dropped, the UI provided clear instructions on how to reconnect without losing progress.
+
+### Wireframes
+Explored multiple layouts for the active call screen, testing the placement of the self-view versus the agent-view to ensure the user focused on the agent's instructions.
+
+### Design Exploration
+Iterated on the document capture overlay. Initially, we used a static bounding box, but shifted to a dynamic, animated guide that provided real-time feedback (e.g., "Move closer", "Hold steady").
+
+### Final Solution
+A calm, guided interface that explicitly walked users through each step. We introduced a "Network Health" indicator before the call started to manage expectations, and used clear, unambiguous typography for on-screen instructions.
+
+### Evidence Highlights
+*(Screenshots to be added showing the dynamic document capture guide and the network health pre-flight check.)*
+
+### Key Design Decisions
+- **Pre-flight Checks:** Mandating a hardware and network check *before* connecting to an agent drastically reduced in-call failures.
+- **High-Contrast Overlays:** Used high-contrast, bold typography for on-screen instructions to ensure readability even in low-light environments.
+
+### Outcome
+- Drop-off rates decreased by 42%.
+- Average verification time was reduced from 8 minutes to 4.5 minutes.
+- The solution was adopted by 4 major banks within the first quarter of launch.
+
+### Reflection
+This project reinforced the importance of designing for worst-case scenarios. Assuming perfect network conditions is a luxury; robust design must account for friction and failure gracefully.
+
+### Skills Demonstrated
+User Research, Interaction Design, Complex Workflows, Cross-functional Collaboration, Designing for Accessibility.

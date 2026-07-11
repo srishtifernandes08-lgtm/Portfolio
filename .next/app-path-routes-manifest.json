@@ -1,0 +1,10 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/experiments/page": "/experiments",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/",
+  "/work/idfy/page": "/work/idfy",
+  "/work/myscoot/page": "/work/myscoot",
+  "/work/oye-rickshaw/page": "/work/oye-rickshaw"
+}
